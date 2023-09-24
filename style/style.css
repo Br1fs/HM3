@@ -1,0 +1,25 @@
+body{
+    padding: 100px 10%;
+    background-color: rgba(241, 126, 112, 0.15);
+    justify-content: space-between;
+}
+
+.child{
+    width: calc(25% - 30px);
+    background-color: #fff;
+    border: 2px solid #e1e1e1;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.child img{
+    width: 100%;    
+}
+    
+
+.roditel1{
+    display: flex;
+    justify-content: space-between;
+}
